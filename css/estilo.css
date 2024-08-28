@@ -1,0 +1,116 @@
+main{
+    width: 1366px;
+    height: 2000px;
+    margin: auto;
+}
+header{
+    width: 1366px;
+    height: 200px;
+    align-items: center;
+    background-image: url(../images//wallpaper2.jpg);
+    background-color: rgba(127, 255, 212, 0.322);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-bottom: 6px;
+}
+
+header img{
+    height: 200px;
+    background-color: rgba(14, 255, 175, 0.205);
+    background-size: cover;
+    background-position: left;
+    filter: drop-shadow(6px 6px 6px);
+    
+}
+
+nav{
+
+    width: 1366px;
+    height: 50px;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+nav a{
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    padding: 6px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    transition: .8s;
+
+}
+
+nav a:hover{
+    background-color: palevioletred;
+    transform: scale(1,2);
+}
+
+
+section
+{
+    width: 1366px;
+    height: 1500px;
+
+    background-image: url(../images/wallpaper.jpg);
+    background-color: turquoise;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+
+footer{
+    width: 1366px;
+    height: 250px;
+
+}
+
+.personaje{
+    width: 1300px;
+    height: 350px;
+
+}
+
+.foto{
+    width: 400px;
+    height: 350px;
+
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    border-bottom: #3d2d0f solid 4px;
+}
+
+.texto{
+    width: 800px;
+    height: 350px;
+    background-color: rgba(95, 161, 218, 0.637);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    float: left;
+    margin-left: 33px;
+
+    border-bottom: #3d2d0f solid 4px;
+}
+
+.texto a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fc4dc7;
+    text-decoration: none;
+    font-size: large;
+}
+
+footer{
+    background-color: #3d2d0f;
+}
